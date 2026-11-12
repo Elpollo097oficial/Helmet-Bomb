@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "2 2",
+        "000"
+    ],
+    "key": {
+        "0": [
+            "minecraft:iron_ingot"
+        ],
+        "2": [
+            "minecraft:tnt"
+        ]
+    },
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "text.1",
+                "fallback": "Helmet Bomb"
+            },
+            "minecraft:item_model": "template:sombrero_bomba",
+            "minecraft:equippable": {
+                "slot": "head",
+                "dispensable": true,
+                "swappable": true,
+                "damage_on_hurt": true,
+                "equip_on_interact": true,
+                "can_be_sheared": true
+            },
+            "minecraft:enchantments": {
+                "minecraft:binding_curse": 1,
+                "minecraft:vanishing_curse": 1
+            },
+            "minecraft:lore": [
+                {
+                    "translate": "text.4",
+                    "fallback": "If I were you, I wouldn't be able to get this helmet."
+                }
+            ],
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:armor",
+                    "id": "",
+                    "amount": 5,
+                    "operation": "add_value"
+                },
+                {
+                    "type": "minecraft:movement_speed",
+                    "id": "",
+                    "amount": 0.01,
+                    "operation": "add_value",
+                    "slot": "head",
+                    "display": {
+                        "type": "default"
+                    }
+                }
+            ],
+            "minecraft:max_damage": 4500
+        },
+        "count": 1
+    }
+}

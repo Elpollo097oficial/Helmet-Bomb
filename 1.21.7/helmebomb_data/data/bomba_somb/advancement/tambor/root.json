@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:orange_wool",
+            "count": 1
+        },
+        "title": "Tambores",
+        "description": {
+            "text": "Craftea TODOS los Tambores",
+            "color": "green",
+            "italic": true
+        },
+        "background": "textures/block/gray_wool.png",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "a1": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "tambor:tierra"
+            }
+        },
+        "a2": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "tambor:aire"
+            }
+        },
+        "a3": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "tambor:fuego"
+            }
+        },
+        "a4": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "tambor:agua"
+            }
+        }
+    },
+    "sends_telemetry_event": true
+}

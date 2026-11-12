@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:item_model": "template:tambor_d"
+            },
+            "count": 1
+        },
+        "title": "Tambor Tierra",
+        "description": "Craftea el Tambor de Tierra",
+        "background": "textures/block/dirt.png",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tambor:tambor/root",
+    "criteria": {
+        "type": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "tambor:tierra"
+            }
+        }
+    },
+    "sends_telemetry_event": true
+}
