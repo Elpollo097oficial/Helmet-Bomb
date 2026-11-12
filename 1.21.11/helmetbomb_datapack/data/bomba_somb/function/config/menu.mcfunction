@@ -1,0 +1,1 @@
+tellraw @a ["\n ",{"text":"⚠ Bomb Helmet Configuration ⚠","bold":true,"color":"gold"},"\n",{"text":"Where do you want to go?","italic":true,"color":"gray"},"\n",{"text":"[Set Level]","bold":true,"click_event":{"action":"run_command","command":"function bomba_somb:config/level"}},"\n "]
