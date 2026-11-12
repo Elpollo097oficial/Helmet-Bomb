@@ -1,0 +1,2 @@
+scoreboard objectives setdisplay sidebar total.value
+tellraw @a ["\n ",{"text":"Have you finished watching?","color":"gold","bold":true,"italic":true},"\n",{"text":"[YES]","bold":true,"click_event":{"action":"run_command","command":"scoreboard objectives setdisplay sidebar"}},"\n "]
